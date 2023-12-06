@@ -6,10 +6,27 @@
     <title>mi proyecto en JS</title>
 </head>
 <body>
-
+    <header><h1><img src="imagenes/vamos-a-jugar-messi.gif"alt="messi"></h1></header><br>
     
+    <h2 id="titulo">Completar con datos de los jugadores:</h2>
 
+<form id="miFormulario">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required>
 
+    <label for="posicion">Posición:</label>
+    <input type="text" id="posicion" required>
+
+    <label for="contacto">Contacto:</label>
+    <input type="text" id="contacto" required>
+
+    <button type="button" id="agregarBtn">Agregar a la Lista</button>
+    <button type="button" id="traerBtn">Traer Últimos Resultados</button>
+    <button type="button" id="limpiarBtn">Limpiar Formulario</button>
+</form>
+
+<h2>El Equipo sera conformado por los siguientes jugadores:</h2>
+<ul id="resultado-lista"></ul>
 
 <script src="main.js"></script>
 </body>
