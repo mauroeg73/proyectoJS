@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>mi proyecto en JS</title>
 </head>
 <body>
     <header><h1><img src="imagenes/vamos-a-jugar-messi.gif"alt="messi"></h1></header><br>
+
+    <div id="contenedor">
+        <div id="clima"></div>
+            <h2 id="ubicacion"></h2>
+            <h3 id="temp-valor"></h3>
+            <img id="icono" src="" alt="icono de clima" height="128" width="128">
+        </div>
+    </div>
     
     <h2 id="titulo">Completar con datos de los jugadores:</h2>
 
@@ -29,5 +38,6 @@
 <ul id="resultado-lista"></ul>
 
 <script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
